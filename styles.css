@@ -1,0 +1,109 @@
+body{
+    background-color:#f5cdcf;
+    color:#5f5274;
+    font-family:monospace;
+}
+.portfolio_title{
+    font-size: 20px;
+    text-align: center;
+    font-weight:600;
+     padding: 20px;
+     background-color:#5a4b60;
+     color:#f5cdcf;
+}
+.intro_text{
+    text-align:center;
+    font-size: 15px;
+    font-weight:100;
+    font-family:monospace;
+    color:#f5cdcf
+}
+.project_title{
+    text-align:center;
+    font-size: 15px;
+    font-weight:600;
+    padding-bottom: 30px;
+}
+.project_list{
+    text-align:center;
+    font-size: 15px;
+}
+.project {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#next, #previous, #light_mode{
+    width: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-color:#cf93ac;
+    background-color:#f7e1e2
+    transition: all 200ms ease;
+}
+.projectdescription{
+    font-size: 12px;
+    font-weight:100;
+}
+img{
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.professions_title {
+    font-size: 15px;
+    text-align:center;
+    padding-top: 10px;
+} 
+.professions_list{
+    font-size: 18px;
+    text-align:center;
+}
+ul{
+    list-style-type: none;
+}
+
+.social_title{
+    background-color:#5a4b60;
+    color:#f5cdcf;
+    text-align:center;
+    font-size: 20px;
+    padding: 5px 20px 20px 20px;
+}
+.socialbutton, #light_mode{  
+    width: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color:#f7e1e2
+
+}
+.socialbutton:hover, #next:hover, #previous:hover, #light_mode:hover{
+    background-color:#bf8e91;
+    color:#f5cdcf;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+.socialbutton:focus, #next:active, #previous:active, #light_mode:active{
+background-color:#8b6577;
+}
+
+.travel_title{
+    font-size: 15px;
+    text-align:center;
+    padding-top: 20px;
+    
+}
+.travel_list{
+    display:flex;
+}
+
+.dark_mode {
+    background-color:#5a4b60;
+    color:#f5cdcf;
+}
+.dark_mode button {
+    background-color:#bf8e91
+    color:#cf93ac;
+}
