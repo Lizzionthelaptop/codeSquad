@@ -4,23 +4,24 @@ body{
     font-family:monospace;
 }
 .portfolio_title{
+    display: flex;
+    align-items: center;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     font-weight:600;
      padding: 20px;
      background-color:#cad4da;
      color:#a57d59;
 }
-.dark_mode .portfolio_title{
-    background-color: #4b3854;
-    color:#f5cdcf;
-}
-.intro_text{
-    text-align:center;
+#bio{
     font-size: 15px;
     font-weight:100;
     font-family:monospace;
     color:#a57d59
+}
+.dark_mode .portfolio_title{
+    background-color: #4b3854;
+    color:#f5cdcf;
 }
 .dark_mode .intro_text{
     color:#f5cdcf;
